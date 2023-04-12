@@ -49,15 +49,3 @@ function decrypt(str, key) {
   });
   return decrypted;
 }
-
-const original = "unasp e lixo"
-const key = "brotaXota"
-
-const encrypted = encrypt(original, key)
-const decrypted = decrypt(encrypted, key)
-
-console.table({
-    original,
-    encrypted,
-    decrypted
-})

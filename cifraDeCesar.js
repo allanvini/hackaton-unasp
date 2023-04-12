@@ -34,9 +34,3 @@ function decrypt(str, key) {
   });
   return decrypted;
 }
-
-let criptografado = encrypt("unasp e zoado", 2);
-let descriptografado = decrypt(criptografado, 2);
-
-console.log("Descriptografado", descriptografado);
-console.log("Criptografado", criptografado);
